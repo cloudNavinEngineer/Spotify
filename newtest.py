@@ -44,12 +44,13 @@ Title_right= list.join(center - end)
 
 algo_recurcession()
 {
-
+    find_center()
     tracksearch(Title_left)
     tracksearch(Title_right)
     
     if found
     done:
+	resizepoem()
     
     else
     {
@@ -63,17 +64,17 @@ algo_recurcession()
     	# the left is divided into 2 parts  and the 3rd part is right part
     		else
     		    split=findcenter(Title_right):
-			# recursion 
-    			algo_recurcession();
-				split=findcenter(Title_Left):
-				# recursion 
-				algo_recurcession();
-    			if found done:
-    				else
-    				{
-    					resize_right()
-    				 	resize_left()
-    				}
+	      	    # recursion 
+    		    algo_recurcession();
+		    split=findcenter(Title_Left):
+		    # recursion 
+		    algo_recurcession();
+    	            if found done:
+    		    else
+    		    {
+    		       resize_right()
+    			resize_left()
+    		    }
     		
     }
 
