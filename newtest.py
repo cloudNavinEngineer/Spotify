@@ -49,6 +49,7 @@ resize_left(Title_right)
 		else
 		    split=findcenter(Title_right):
 			tracksearch(0-split)
+                        tracksearch(split-end)
 			if found done:
 				else
 				{
