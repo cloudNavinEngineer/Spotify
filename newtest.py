@@ -63,8 +63,10 @@ algo_recurcession()
     	# the left is divided into 2 parts  and the 3rd part is right part
     		else
     		    split=findcenter(Title_right):
+			# recursion 
     			algo_recurcession();
 				split=findcenter(Title_Left):
+				# recursion 
 				algo_recurcession();
     			if found done:
     				else
