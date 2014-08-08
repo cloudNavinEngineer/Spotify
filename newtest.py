@@ -42,9 +42,9 @@ resizepoem()
 Title_left =list.join(0 - center)
 Title_right= list.join(center - end)
 
-algo_recurcession()
+algo_recurcession(String poem)
 {
-    find_center()
+    find_center(poem)
     tracksearch(Title_left)
     tracksearch(Title_right)
     
@@ -63,12 +63,13 @@ algo_recurcession()
     	# this way we are splitting the string into 3 but not into equal parts 
     	# the left is divided into 2 parts  and the 3rd part is right part
     		else
-    		    split=findcenter(Title_right):
+    		    
 	      	    # recursion 
-    		    algo_recurcession();
-		    split=findcenter(Title_Left):
+    		    algo_recurcession(Title_left);
+	
 		    # recursion 
-		    algo_recurcession();
+		    algo_recurcession(Title_right);
+
     	            if found done:
     		    else
     		    {
