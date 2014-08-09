@@ -18,14 +18,18 @@ ptr= findcenter()
 # Function to search the track
 tracksearch()
 {
-	if found:
+	if found one:
 	resizepoem()
+        
+        if 
 }
 
 #function to resize right
 resize_right()
 {
 	tracksearch()
+	if found:
+	one part 
 }
 
 
@@ -37,6 +41,12 @@ resize_left()
 
 # resize the poem when we find the title track
 resizepoem()
+{
+    #Store the track found
+    title[number]
+    # trim it to the part we have not found as track and send
+    algo_recurssion(String of_part_not_found)
+}
 ------------------------------
 
 Title_left =list.join(0 - center)
@@ -68,7 +78,7 @@ algo_recurcession(String poem)
     		    algo_recurcession(Title_left);
 	
 		    # recursion 
-		    algo_recurcession(Title_right);
+		    #algo_recurcession(Title_right);
 
     	            if found done:
     		    else
